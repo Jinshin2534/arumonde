@@ -1,0 +1,11 @@
+{
+  "name": "あるもんで",
+  "short_name": "あるもんで",
+  "description": "手持ちの調味料と食材から、今日の晩ごはんをAIやレシピサイトに聞く",
+  "lang": "ja",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf6ef",
+  "theme_color": "#8a3b12",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
