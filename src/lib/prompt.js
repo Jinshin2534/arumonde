@@ -28,7 +28,7 @@ function requestLine({ starred, servings, time, moods }) {
 function compose(input, others, seasonings, cut) {
   const lines = [requestLine(input)]
   if (!input.starred.length && !input.others.length) {
-    lines.push('食材の手持ちはないので、調味料だけで作れるもの、または少しの買い足しで作れるものでお願いします。')
+    lines.push('食材は特に指定しません。調味料だけで作れるもの、または少しの買い足しで作れるものでお願いします。')
   }
   if (others.length || cut.others) {
     const label = input.starred.length ? '他に使ってよい食材' : '使ってよい食材'
